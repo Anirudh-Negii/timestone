@@ -130,7 +130,7 @@ const testimonialPageStyles = {
 
   // Scrollbar hiding
   scrollbarHide:
-    "container ::-webkit-scrollbar { display: none; } .container { -ms-overflow-style: none; scrollbar-width: none; }",
+    ".container ::-webkit-scrollbar { display: none; } .container { -ms-overflow-style: none; scrollbar-width: none; }",
 };
 
 export { testimonialPageStyles };
