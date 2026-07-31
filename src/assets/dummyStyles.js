@@ -169,7 +169,7 @@ export const watchOfferBannerStyles = {
   countdownGrid: "grid grid-cols-4 -mx-6 md:-mx-0 xl:-mx-0 gap-4 mb-8 max-w-md",
   countdownItem: "bg-gray-800/50 backdrop-blur-sm rounded-lg p-4 text-center",
   countdownValue: "text-2xl md:text-3xl font-bold text-white",
-  countdownLabel: "text-xs text-gray-200 mt-1",
+  countdownUnit: "text-xs text-gray-200 mt-1",
 
   // Features
   featuresContainer: "flex flex-wrap gap-6",
