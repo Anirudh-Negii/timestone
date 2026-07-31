@@ -57,7 +57,7 @@ export const footerStyles = {
 
   // Contact Info
   contactList: "space-y-4",
-  contactItem: "flex items-start",
+  contactItem: "flex items-center",
   contactIconContainer:
     "h-10 w-10 rounded-full bg-gradient-to-br from-gray-300 to-gray-400 flex items-center justify-center flex-shrink-0 mr-3",
   contactIcon: "h-5 w-5 text-black",
@@ -68,7 +68,7 @@ export const footerStyles = {
     "py-8 flex flex-col md:flex-row justify-between items-center border-t border-gray-200 border-dashed",
   copyright: "text-xs text-gray-500 flex items-center mb-4 md:mb-0",
   heartIcon: "h-3 w-3 mx-1 text-amber-600 fill-current",
-  designerLink: "text-xs text-gray-500",
+  designerLink: "text-xs text-gray-500 flex items-center justify-center md:justify-start",
   linkHover: "hover:text-blue-600 transition-colors",
 
   // Support links

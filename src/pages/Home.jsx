@@ -4,6 +4,7 @@ import CategoriesHome from '../components/CategoriesHome'
 import ComingSoonWatch from '../components/ComingSoonWatch'
 import LimitedTime from '../components/LimitedTime'
 import Testimonials from '../components/Testimonials'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <ComingSoonWatch />
         <LimitedTime />
         <Testimonials />
+        <Footer />
     </div>
   )
 }
