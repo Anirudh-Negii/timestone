@@ -717,9 +717,9 @@ export const signUpStyles = {
 
   // Back button
   backButton:
-    "absolute top-6 left-6 cursor-pointer z-30 bg-gradient-to-br from-gray-200 to-gray-400 backdrop-blur-sm rounded-full p-2 shadow-sm flex items-center justify-center transition-transform transform",
-  backIcon: "h-5 w-5 text-gray-700",
-  backText: "ml-1 font-[pacifico]",
+    "absolute top-6 cursor-pointer left-6 z-20 bg-gradient-to-r from-gray-300 to-gray-400 backdrop-blur-sm rounded-full p-2 shadow-md flex items-center justify-center transition-transform transform hover:-translate-y-0.5",
+  backIcon: "h-5 w-5 text-gray-800",
+  backText: "ml-1",
 
   // Form container
   formContainer: "w-full max-w-md",

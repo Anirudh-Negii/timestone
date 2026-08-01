@@ -33,17 +33,6 @@ const Login = () => {
       return;
     }
 
-    /*=================================================================
-     REMOVE THIS BLOCK IN PRODUCTION
-    ===================================================================*/
-    console.log("Login form submitted — form data:", {
-      email,
-      password,
-      rememberMe,
-      showPassword,
-      timestamp: new Date().toISOString(),
-    });
-
     // Simulate successful login by storing a fake token in localStorage
     try {
       const fakeToken = btoa(`${email}:${Date.now()}`);
@@ -69,24 +58,18 @@ const Login = () => {
     });
 
     // Redirect to home after short delay so user sees the toast
-    setTimeout(() => {
-      navigate("/");
-    }, 1200);
+    setTimeout(() => { navigate("/") }, 1200);
+
   };
 
   return (
     <div
       className={loginPageStyles.pageContainer}
-      style={{
-        fontFamily: "'Playfair Display', sans-serif",
-      }}
+      style={{ fontFamily: "'Playfair Display', sans-serif" }}
     >
       <ToastContainer />
       <div className={loginPageStyles.mainContent}>
-        <button
-          className={loginPageStyles.backButton}
-          onClick={() => navigate("/")}
-        >
+        <button className={loginPageStyles.backButton} onClick={() => navigate("/")}>
           <ArrowLeft className={loginPageStyles.backIcon} />
           <span className={loginPageStyles.backButtonText}>Back to Home</span>
         </button>
@@ -190,6 +173,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      
       <style>
         {`@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');`}
       </style>
