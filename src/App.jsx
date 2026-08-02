@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx";
 import Brand from "./pages/Brand.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
+import Watch from "./pages/Watch.jsx";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/brands/:brandName" element={<Brand />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/watches" element={<Watch />} />
       </Routes>
     </div>
   );
