@@ -5,6 +5,7 @@ import Brand from "./pages/Brand.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
 import Watch from "./pages/Watch.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/watches" element={<Watch />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
